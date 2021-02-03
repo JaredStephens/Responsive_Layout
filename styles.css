@@ -1,4 +1,53 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: "Rubik", sans-serif;
+	color: #808080;
+}
+h1,
+h2,
+h3,
+li {
+	text-align: center;
+	color: black;
+}
+header {
+	padding-top: 2rem;
+}
+#navbar {
+	text-align: center;
+	line-height: 200%;
+	padding-top: 5%;
+}
+#bio {
+	padding: 5%;
+	text-align: center;
+	background-color: #f6f6f6;
+	margin-top: 1em;
+}
+#profile_img {
+	width: 60%;
+	height: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#portfolio {
+	padding-top: 1.5em;
+}
+.portfolio_img {
+	width: 90%;
+	height: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.description {
+	padding: 3%;
+	text-align: center;
+	font-size: small;
+}
+h2 {
+	padding-top: 10%;
+	padding-bottom: 15%;
+	font-size: 1rem;
 }
