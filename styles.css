@@ -71,8 +71,9 @@ h2 {
 	margin: 0.5rem;
 	background-color: white;
 }
-#footer_info {
+.footer_info {
 	text-align: center;
 	font-size: small;
 	margin: 1em;
+	padding-top: 1em;
 }
