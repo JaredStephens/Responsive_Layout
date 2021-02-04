@@ -71,6 +71,9 @@ h2 {
 	margin: 0.5rem;
 	background-color: white;
 }
+#contact {
+	padding-bottom: 3em;
+}
 .footer_info {
 	text-align: center;
 	font-size: small;
