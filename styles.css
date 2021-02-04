@@ -20,11 +20,12 @@ header {
 	padding-top: 5%;
 }
 li {
-	margin: 1em;
 	list-style-type: none;
 	background-color: white;
 	padding: 0.5em;
 	margin: 0.5em;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 #bio {
 	padding: 5%;
@@ -38,11 +39,15 @@ li {
 	margin-right: auto;
 	display: block;
 }
+#portfolio {
+	background-color: white;
+}
 .portfolio_img {
 	width: 90%;
 	height: 90%;
 	padding-right: 5%;
 	padding-left: 5%;
+	background-color: white;
 }
 .description {
 	padding: 3%;
@@ -55,6 +60,8 @@ h2 {
 	font-size: 1rem;
 }
 h3,
-p {
+p,
+h2 {
 	margin: 0.5rem;
+	background-color: white;
 }
