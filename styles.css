@@ -8,6 +8,7 @@
 h1,
 h2,
 h3,
+h4,
 li {
 	text-align: center;
 	color: black;
@@ -59,9 +60,19 @@ h2 {
 	padding-bottom: 15%;
 	font-size: 1rem;
 }
+
+h4 {
+	text-align: center;
+	padding-top: 10%;
+}
 h3,
 p,
 h2 {
 	margin: 0.5rem;
 	background-color: white;
+}
+#footer_info {
+	text-align: center;
+	font-size: small;
+	margin: 1em;
 }
