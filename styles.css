@@ -82,3 +82,28 @@ h2 {
 	padding-bottom: 2em;
 	color: black;
 }
+/* tablet layout */
+@media screen and (min-width: 768px) {
+	#navbar {
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+		background-color: #f7f7f7;
+		font-size: 13px;
+	}
+	#bio {
+		display: inline-block;
+		align-items: center;
+	}
+	#profile_img {
+		padding: 1em;
+		width: 40%;
+		height: 40%;
+		float: right;
+	}
+	#bio > section {
+		text-align: left;
+		padding-top: 1em;
+	}
+}
