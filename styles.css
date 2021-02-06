@@ -18,6 +18,7 @@ li {
 header {
 	padding-top: 2rem;
 }
+/* navigation  */
 #navbar {
 	line-height: 200%;
 	padding-top: 5%;
@@ -30,11 +31,13 @@ li {
 	margin-left: 5%;
 	margin-right: 5%;
 }
+/* bio */
 #bio {
 	padding: 5%;
 	text-align: center;
 	margin-top: 1em;
 }
+/* portfolio */
 #profile_img {
 	width: 60%;
 	height: 60%;
@@ -73,6 +76,7 @@ h2 {
 	margin: 0.5rem;
 	background-color: white;
 }
+/* footer */
 .footer_info {
 	text-align: center;
 	font-size: small;
@@ -84,11 +88,16 @@ h2 {
 	padding-bottom: 2em;
 	color: black;
 }
+
 /* tablet layout */
 
 @media screen and (min-width: 768px) {
+	h1 {
+		padding-top: 1em;
+	}
 	#navbar {
 		text-align: center;
+		padding-top: 2%;
 	}
 	li {
 		display: inline-block;
@@ -98,6 +107,7 @@ h2 {
 	#bio {
 		display: inline-block;
 		align-items: center;
+		padding-top: 0%;
 	}
 	#profile_img {
 		padding: 1em;
@@ -108,6 +118,9 @@ h2 {
 	#bio > section {
 		text-align: left;
 		padding-top: 1em;
+	}
+	div > h2 {
+		padding-bottom: 1.5em;
 	}
 	.portfolio {
 		width: 50%;
