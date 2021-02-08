@@ -66,10 +66,6 @@ h2 {
 	padding-bottom: 15%;
 	font-size: 1rem;
 }
-
-h4 {
-	padding-top: 10%;
-}
 h3,
 p,
 h2 {
@@ -80,13 +76,29 @@ h2 {
 .footer_info {
 	text-align: center;
 	font-size: small;
-	margin: 1em;
 	padding-top: 1em;
+	background-color: #f7f7f7;
+	margin: 0%;
 }
 .footer_info > div {
 	padding-top: 1em;
 	padding-bottom: 2em;
 	color: black;
+}
+h4 {
+	padding-top: 10%;
+	padding-bottom: 2em;
+	background-color: #f7f7f7;
+}
+#chat {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2em;
+}
+#name-top {
+	padding-right: 1em;
+	padding-left: 1em;
+	border-bottom: 0.5px solid rgb(128, 128, 128, 0.2);
 }
 
 /* tablet layout */
@@ -135,5 +147,23 @@ h2 {
 	#chat {
 		padding-left: 25%;
 		padding-right: 25%;
+	}
+	h4,
+	.footer_info {
+		background-color: #f7f7f7;
+		margin: 0%;
+	}
+	h4 {
+		padding-top: 2em;
+		padding-bottom: 1.5em;
+	}
+	.footer_info {
+		padding: 1em;
+	}
+	#name-top > div {
+		padding-top: 3em;
+		padding-bottom: 5%;
+		padding-right: 1em;
+		padding-left: 1em;
 	}
 }
