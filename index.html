@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="styles/styles.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
@@ -14,27 +14,27 @@
 	<body>
 		<header>
 			<h1>Student Name</h1>
-		
-		<nav id="navbar">
-			<ul>
-				<li><a href="#navbar">HOME</a></li>
-				<li><a href="#portfolio_page">PORTFOLIO</a></li>
-				<li><a href="#contact">CONTACT</a></li>
-			</ul>
-		</nav>
-		<div id="bio">
-			<img
-				src="/images/responsive-layout-profile.png"
-				alt="profile image"
-				id="profile_img"
-			/>
-			<section>
-				Hi! I am a front-end developer who loves responsive design and css. I
-				recently finished a degree in front-end web development at Treehouse and
-				am excited to put all my skills to use!
-			</section>
+
+			<nav id="navbar">
+				<ul>
+					<li><a href="#navbar">HOME</a></li>
+					<li><a href="#portfolio_page">PORTFOLIO</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+			<div id="bio">
+				<img
+					src="/images/responsive-layout-profile.png"
+					alt="profile image"
+					id="profile_img"
+				/>
+				<section>
+					Hi! I am a front-end developer who loves responsive design and css. I
+					recently finished a degree in front-end web development at Treehouse
+					and am excited to put all my skills to use!
+				</section>
+			</div>
 		</header>
-		</div>
 
 		<div id="portfolio_page">
 			<h2>PORTFOLIO</h2>
@@ -75,14 +75,9 @@
 				</p>
 			</section>
 			<section class="portfolio">
-				<img
-					src="images/portfolio-4.png"
-					alt="Map"
-					class="portfolio_img"
-					class="portfolio_img"
-				/>
+				<img src="images/portfolio-4.png" alt="Map" class="portfolio_img" />
 				<h3>Map of Favorite Spots</h3>
-				<p class ="description">
+				<p class="description">
 					This project uses mapping apis to plot points for my favorite spots in
 					the city for a do-it-yourself walking tour.
 				</p>
@@ -118,13 +113,13 @@
 				If you're interested in chatting or want more information about what
 				I've been working on, I'd love to hear from you!
 			</section>
-			<section class="footer_info">Phone <bold>+1(111)555-1234</bold></section>
-			<section class="footer_info">
-				Email <bold>email@yoursite.com</bold>
-			</section>
+			<section class="footer_info">Phone +1(111)555-1234</section>
+			<section class="footer_info">Email email@yoursite.com</section>
 			<section class="footer_info" id="name-top">
 				<div style="float: left">Student Name</div>
-				<div style="float: right" id="BTT"><a href="#navbar">BACK TO TOP</a></div>
+				<div style="float: right" id="BTT">
+					<a href="#navbar">BACK TO TOP</a>
+				</div>
 				<div id="bottom-list">
 					<a href="#navbar">HOME</a>
 					<a href="#portfolio_page">PORTFOLIO</a>
@@ -132,6 +127,5 @@
 				</div>
 			</section>
 		</footer>
-		
 	</body>
 </html>
